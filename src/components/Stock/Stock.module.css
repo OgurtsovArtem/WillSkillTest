@@ -1,4 +1,138 @@
 .stock {
-  background-color: bisque;
+  background-color: var(--color-main-black);
+  padding-top: 110px;
+  padding-bottom: 112px;
+}
+.container {
+  color: #ffffff;
+}
+.title {
   text-align: center;
+  font: var(--font-Rubik-48-bold);
+}
+.accent {
+  color: var(--color-main-orange);
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 45px;
+}
+.oldPrice {
+  font: var(--font-Rubik-36-normal);
+  color: var(--color-main-gray);
+  text-decoration: line-through;
+}
+.actualPrice {
+  font: var(--font-Rubik-48-normal);
+}
+.advantages {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.cardLg {
+  composes: card;
+}
+
+.text {
+  font: var(--font-Rubik-18-normal);
+}
+.textLg {
+  margin-top: 45px;
+  font: var(--font-Rubik-36-normal);
+}
+.button {
+  display: block;
+  margin-top: 80px;
+  max-width: 256px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1919.5px) {
+}
+@media screen and (max-width: 1559.5px) {
+}
+@media screen and (max-width: 1439.5px) {
+}
+@media screen and (max-width: 1279.5px) {
+}
+@media screen and (max-width: 1023.5px) {
+  .stock {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .title {
+    font: var(--font-Rubik-36-normal);
+  }
+  .price {
+    margin-top: 35px;
+  }
+  .oldPrice {
+    font: var(--font-Rubik-24-normal);
+  }
+  .advantages {
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .actualPrice {
+    font: var(--font-Rubik-36-normal);
+  }
+  .textLg {
+    font: var(--font-Rubik-24-normal);
+  }
+  .button {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 767.5px) {
+}
+@media screen and (max-width: 583.5px) {
+  .advantages {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+  .cardLg {
+    grid-row-start: 1;
+    grid-column-start: span 2;
+  }
+}
+@media screen and (max-width: 413.5px) {
+  .advantages {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .cardLg {
+    grid-column-start: unset;
+  }
+  .title {
+    font: var(--font-Rubik-24-normal);
+  }
+  .oldPrice {
+    font: var(--font-Rubik-18-normal);
+  }
+  .actualPrice {
+    font: var(--font-Rubik-24-normal);
+  }
+  .textLg {
+    font: var(--font-Rubik-18-normal);
+  }
+  .button {
+    max-width: unset;
+  }
+}
+@media screen and (max-width: 359.5px) {
 }

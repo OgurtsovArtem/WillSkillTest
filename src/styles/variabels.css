@@ -1,10 +1,11 @@
 /* VARIABLES */
 :root {
-  --header-height-mobile: 56px;
-  --header-height-tablet: 66px;
+  --header-height-mobile: 51px;
+  --header-height-tablet: 59px;
   --header-height-desktop: 80px;
 
-  --container-max-width: 1250px;
+  --container-max-width: 1320px;
+  --container-secondary-max-width: 1110px;
 
   /* Z-INDEX */
 
@@ -26,57 +27,29 @@
   --transition-duration-500: 0.5s;
 
   /* COLORS */
-  --color-main-blue: #2f71e5;
-  --color-main-primary: #1a1b22;
-  --color-gray-light: #f5f6f7;
-  --color-gray-easy: rgba(26, 27, 34, 0.5);
-  --color-simulator-gray-selected: #e6e8eb;
-  --color-simulator-gray-text: #b6bcbf;
-  --color-simulator-gray-text-light: #dde0e2;
-  --color-mern-node-js: #9bc147;
-  --color-mern-react: #286091;
-  --color-mern-express: #cd786e;
-  --color-mern-mongodb: #399e45;
-  --color-error: #ff0000;
-
-  /* COLORS INTERACTIVE */
-
-  --color-button-hover-blue: #347eff;
-  --color-button-active-blue: #2a65cc;
-
+  --color-main-black: #000000;
+  --color-secondary-black: #111111;
+  --color-main-orange: #fcb500;
+  --color-main-gray: #adadad;
+  --color-button-hover: rgba(252, 181, 0, 0.8);
   /* BORDERS */
 
-  --border-radius-6: 6px;
-  --border-radius-10: 10px;
-  --border-radius-16: 16px;
-  --border-radius-20: 20px;
-  --border-radius-80: 80px;
-  --border-radius-100: 100px;
+  --border-radius-7: 7px;
 
   /* FONTS */
+  --font-Rubik-12-normal: 400 12px/24px Rubik, Text, sans-serif;
+  --font-Rubik-16-normal: 400 16px/20px Rubik, Text, sans-serif;
+  --font-Rubik-18-normal: 400 18px/21px Rubik, Text, sans-serif;
+  --font-Rubik-24-normal: 400 24px/28px Rubik, Text, sans-serif;
+  --font-Rubik-36-normal: 400 36px/43px Rubik, Text, sans-serif;
+  --font-Rubik-48-normal: 400 48px/57px Rubik, Text, sans-serif;
 
-  --font-Roboto-10-normal: 500 10px/12px Roboto, Text, sans-serif;
-  --font-Roboto-12-normal: 500 12px/14px Roboto, Text, sans-serif;
-  --font-Roboto-14-normal: 500 14px/24px Roboto, Text, sans-serif;
-  --font-Roboto-16-normal: 500 16px/24px Roboto, Text, sans-serif;
-  --font-Roboto-16-regular: 400 16px/22px Roboto, Text, sans-serif;
-  --font-Roboto-18-normal: 500 18px/24px Roboto, Text, sans-serif;
-  --font-Roboto-18-regular: 400 18px/24px Roboto, Text, sans-serif;
-  --font-Roboto-24-black: 900 24px/28px Roboto, Text, sans-serif;
-
-  --font-Roboto-Slab-16-bold: 700 16px/20px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-20-bold: 700 20px/24px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-20-normal: 500 20px/24px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-22-regular: 400 22px/24px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-26-regular: 400 26px/30px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-30-regular: 400 30px/34px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-36-regular: 400 36px/40px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-40-regular: 400 40px/46px "Roboto Slab", Text, sans-serif;
-  --font-Roboto-Slab-60-regular: 400 60px/64px "Roboto Slab", Text, sans-serif;
-
-  --font-Inter-12-regular: 400 12px/15px Inter, Text, sans-serif;
-  --font-Inter-14-regular: 400 14px/17px Inter, Text, sans-serif;
-  --font-Inter-18-regular: 400 18px/22px Inter, Text, sans-serif;
-
-  --font-Source-Sans-Pro-18-regular: 400 18px/24px "Source Sans Pro", Text, sans-serif;
+  --font-Rubik-20-bold: 700 20px/28px Rubik, Text, sans-serif;
+  --font-Rubik-28-bold: 700 28px/35px Rubik, Text, sans-serif;
+  --font-Rubik-36-bold: 700 36px/43px Rubik, Text, sans-serif;
+  --font-Rubik-48-bold: 700 48px/57px Rubik, Text, sans-serif;
+  --font-Rubik-144-bold: 700 144px/152px Rubik, Text, sans-serif;
+  --font-Rubik-116-bold: 700 116px/124px Rubik, Text, sans-serif;
+  --font-Rubik-75-bold: 700 75px/83px Rubik, Text, sans-serif;
+  --font-Rubik-42-bold: 700 42px/50px Rubik, Text, sans-serif;
 }
