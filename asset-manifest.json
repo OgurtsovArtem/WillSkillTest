@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a652426f.css",
+    "main.js": "./static/js/main.769fb729.js",
+    "static/js/787.d495d8a0.chunk.js": "./static/js/787.d495d8a0.chunk.js",
+    "static/media/intro-products.png": "./static/media/intro-products.48330e2662a479d0cc50.png",
+    "static/media/Rubik-Bold.woff": "./static/media/Rubik-Bold.de88cfe0918ac1c0ee51.woff",
+    "static/media/Rubik-Regular.woff": "./static/media/Rubik-Regular.c7a6a3baef3e71af68cd.woff",
+    "static/media/nootris.png": "./static/media/nootris.8192f2cd9dd4db25bd2b.png",
+    "static/media/ginger.png": "./static/media/ginger.e5ecf3bae29483168083.png",
+    "static/media/Rubik-Regular.woff2": "./static/media/Rubik-Regular.ae09365610a8d6beeaed.woff2",
+    "static/media/virus.png": "./static/media/virus.b95330984fc41a7af44b.png",
+    "static/media/intro-bg.svg": "./static/media/intro-bg.acfeaebb59c54842b6aa260b3bf086ef.svg",
+    "index.html": "./index.html",
+    "main.a652426f.css.map": "./static/css/main.a652426f.css.map",
+    "main.769fb729.js.map": "./static/js/main.769fb729.js.map",
+    "787.d495d8a0.chunk.js.map": "./static/js/787.d495d8a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a652426f.css",
+    "static/js/main.769fb729.js"
+  ]
+}
