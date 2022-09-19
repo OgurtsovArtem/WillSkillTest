@@ -1,7 +1,10 @@
 {
   "name": "willskill-test",
+  "description": "Test task for willSkill 2022",
   "version": "0.1.0",
   "private": true,
+  "author": "Artem Ogurtsov",
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +15,7 @@
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.3",
     "web-vitals": "^2.1.4"
