@@ -8,4 +8,4 @@
 
 ### Ссылки на проект
 
-[Gh-Page](./).
+[Gh-Page](https://ogurtsovartem.github.io/WillSkillTest/).
